@@ -1,0 +1,10 @@
+print("Hola! Vamos a calcular si eres mayor o Menor de edad")
+
+edad=int(input("Introduce Cuantas Vueltas al sol has dado:" ))
+print("***********************************************************")
+
+if edad > 18:
+ print("Eres Viejo")
+
+else:
+ print("Eres joven Tu puedes!!!")

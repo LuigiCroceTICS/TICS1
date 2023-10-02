@@ -1,0 +1,12 @@
+print("Calculemos tu IMC")
+
+peso=int(input("Introduce Tu Peso en KG"))
+
+altura=float(input("Ahora Introduce tu Estatura en M"))
+
+resultado= peso/altura**2
+
+print("Tu IMC es:")
+print(resultado)
+
+55
