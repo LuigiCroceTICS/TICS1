@@ -1,0 +1,10 @@
+s= "12345"
+print(s)
+S=int(input("Introduce la Contraseña:"))
+
+if S==s:
+    print("Contraseña Correcta")
+else:
+    print("contraseña Incorrecta")
+7894
+12345
