@@ -1,8 +1,12 @@
 dni= input("Introduzca su dni:")
-otra= input("Introduzca otra:")
+mes= input("Introduzca el mes :")
+dia= input("Introduzca el dia:")
+hora= input("Introduzca la hora:")
+especialidad= input("Introduzca la especialidad.:")
+
 
 citas=open('Banco.csv', 'a+')
-citas.write(dni + ";" + otra + "\n")
+citas.write(dni + ";" + mes + ";"+ dia + ";" + hora + ";"+ especialidad + "\n")
 citas.close 
 
 
