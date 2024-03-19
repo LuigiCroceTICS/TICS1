@@ -24,19 +24,19 @@ def escribir(nombre):
     return
 
 def buscar(fichero):
-    dnib="44844484F"
+    dni2=input("Introduzca el DNI de la Cita:")
     with open(fichero, 'r') as f:
         for linea in f:
-            if dnib in linea:
+            if dni2 in linea:
                 print(linea)
     return
 
 def eliminar (fichero):
-    dnib="44844484F"
+    dni=input("introduzca el Dni a Eliminar:")
     d=leer(fichero)
     with open(fichero, 'w') as f:
-        for linea in d :
-            if dnib not in linea:
+        for linea in d:
+            if dni not in linea:
                 f.write(linea)
     return
 
